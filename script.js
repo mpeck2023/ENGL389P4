@@ -50,17 +50,20 @@ startBtn.onclick = () => {
     storyBox.style.display="flex";
 }
 
+// the plus button in the upper right
 colorBtn.onclick = () => {
     rangeInput.style.display="flex";
     colorBtn.innerHTML = "-";
 }
+
+// plus button first click behavior
 function firstClick() {
     rangeInput.style.display="none";
     colorBtn.innerHTML = "+";
     colorBtn.removeEventListener("click", firstClick);
     colorBtn.addEventListener("click", secondClick);
 }
-
+// plus button second click behavior
 function secondClick() {
     colorBtn.removeEventListener("click", secondClick);
     colorBtn.addEventListener("click", firstClick);
@@ -68,6 +71,7 @@ function secondClick() {
 
 colorBtn.addEventListener("click", firstClick);
 
+//sets the color variable
 const root = document.documentElement;
 
 function setHue() {
@@ -106,6 +110,7 @@ function showPassage(name) {
     story.scrollTo({ top: story.scrollHeight, behavior: 'smooth' });   
 }
 
+// just makes a new line between each list element
 function newLine (text) {
     textToShow = ""
     text.forEach((line) => {
@@ -114,6 +119,7 @@ function newLine (text) {
     return textToShow;
 }
 
+// The go back button behavior
 const goBackBtn = document.createElement("span");
 goBackBtn.className = "go-back";
 goBackBtn.innerHTML = "Go Back";
@@ -158,6 +164,7 @@ function setChoices(passageChoices) {
     choiceBar.appendChild(goBackBtn);
 }
 
+// Text that requires a condition to be visable
 function lockedText(key,locked1,locked2) {
     if (locked2 === undefined) {
         locked2 = "";
