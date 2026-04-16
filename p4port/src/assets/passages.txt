@@ -1,0 +1,13 @@
+id--P1
+:You:::Hi!
+:Jason:::I hate you.
+>What?>>>P2
+>Express a similar opinion|||I hate you too.>>>P2
+>Ok!>>>P2
+==
+id--P2
+:Jason:::I said I hate you!
+:Jason:::You are a stupid idiot and should explode right now.
+>You're coming on a bit strong buddy.>>>END
+>I'm not sure I understand.>>>END
+==

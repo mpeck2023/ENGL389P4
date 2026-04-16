@@ -1,14 +1,13 @@
 export type Passage = {
     name: string;
     body: {
-        text: string,
-        speakerName: string
+        text: string;
+        speakerName: string;
     }[];
-    choices: Choice[];
+    choices: {
+        id: string;
+        thumbnailText?: string;
+        displayText: string;
+        nextPassage: Passage | string;
+    }[];
 };
-
-export type Choice = {
-    name: string
-    displayText: string
-    next: Passage
-}
