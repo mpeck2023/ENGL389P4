@@ -3,7 +3,8 @@ import type { Passage } from "../types/Passage";
 export function parseFileToPassages(filename: string): Passage[] | null {
     if (!filename || filename.trim().length === 0) return null;
 
-    // Import the file, probably "passages.txt"
+    // Import the file.
+    // With this method, the filename passed to glob must be a string literal.
     const key = "../assets/passages.txt";
     const fileImport = import.meta.glob("../assets/passages.txt", {
         as: "raw",
@@ -27,7 +28,6 @@ export function parseFileToPassages(filename: string): Passage[] | null {
     const EOP = "=="; // End of Passage
 
     const lines = rawPassages.split("\n");
-    console.log(lines);
 
     let i = 0;
 
@@ -35,7 +35,6 @@ export function parseFileToPassages(filename: string): Passage[] | null {
         const pName = lines[i++].split(PID_INDICATOR)[1];
         const p: Passage = { name: pName, body: [], choices: [] };
 
-        console.log("Parsing passage " + pName);
         // Loops over a single passage
         while (lines[i] != EOP) {
             // If we're looking at dialogue
@@ -92,7 +91,6 @@ export function parseFileToPassages(filename: string): Passage[] | null {
         }
 
         passages.push(p);
-        console.log("Finished passage " + p.name);
         i++;
     }
 
