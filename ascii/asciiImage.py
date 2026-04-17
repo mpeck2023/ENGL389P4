@@ -21,18 +21,27 @@ def to_ascii(file, size = 150, directory = ""):
 
     #@@BBRR**##$$PPXX00wwooIIccvv::++!!~~""..,,  " .-:=+##","$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"\^`'. "
     # dark_to_bright = "  .:--++****"
-    dark_to_bright = "  .:--++#@@"
+    dark_to_bright = "  ..::--++**$$"
     bright_to_dark = dark_to_bright[::-1]
     lines = [[dark_to_bright[int(image.getpixel((i,j)) / max(image_px) * (len(dark_to_bright) - 1))] for i in range(image.width)] for j in range(image.height)]
     lines = ["".join(line) for line in lines]
     image.save("output_images/formatted_" + file)
 
     file_name = file.split('.', 1)[0]
+    lines = [line + "\n" for line in lines]
     with open("output_text/ascii" + file_name + ".txt", "w") as ascii:
         # ascii.write(str(lines)+"\n")
-        lines = [line + "\n" for line in lines]
+        ascii.writelines(lines)
+    
+    with open("output_text.txt", "a") as ascii:
+        # ascii.write(str(lines)+"\n")
         ascii.writelines(lines)
         ascii.write("\n")
+
+# def character_on_background(output_face, output_landscape):
+#     with open(output_face, "r") as face:
+#         face_lines = [line.strip() for line in face]
+    
 
 directory = sys.argv[1]
 if len(sys.argv) == 3:
