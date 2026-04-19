@@ -21,7 +21,7 @@ def to_ascii(file, size = 150, directory = ""):
 
     #@@BBRR**##$$PPXX00wwooIIccvv::++!!~~""..,,  " .-:=+##","$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"\^`'. "
     # dark_to_bright = "  .:--++****"
-    dark_to_bright = "  ..::--++**$$"
+    dark_to_bright = "  ..::--++**$$##@@"
     bright_to_dark = dark_to_bright[::-1]
     lines = [[dark_to_bright[int(image.getpixel((i,j)) / max(image_px) * (len(dark_to_bright) - 1))] for i in range(image.width)] for j in range(image.height)]
     lines = ["".join(line) for line in lines]
