@@ -315,3 +315,32 @@ body::before {
     background: hsl(var(--hue), 87%, 62%);
     border-radius: 10px;
 }
+
+.layout {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 5fr 4fr;
+  grid-template-rows: 4fr 1fr;
+  grid-template-areas:
+    "topLeft topRight"
+    "bottom bottom";
+}
+
+.topLeft {
+  grid-area: topLeft;
+  border: 1px solid black;
+}
+
+.topRight {
+  grid-area: topRight;
+  border: 1px solid black;
+}
+
+.bottom {
+  grid-area: bottom;
+  border: 1px solid black;
+}
+
+.controlPanel {
+    margin: 1rem;
+}

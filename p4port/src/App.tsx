@@ -75,11 +75,11 @@ function TitleContainer() {
 }
 
 function Title() {
-    <div className="title">WORKSPACE</div>
+    return <div className="title">WORKSPACE</div>
 }
 
 function AsciiArt() {
-    <div id="ascii-art" />
+    return <div id="ascii-art" />
 }
 
 function StartButton(props) {
@@ -113,11 +113,27 @@ function StoryBox(show) {
             }}
         >
             <Flare />
-            <Title />
+            {/* <Title />
             <Story />
-            <Choices />
+            <Choices /> */}
+            <div className="layout">
+                <div className="topLeft">Top Left</div>
+                <div className="topRight">Top Right</div>
+                <div className="bottom">
+                    <ControlPanel />
+                </div>
+            </div>
+
         </div>
     );
+}
+
+function ControlPanel() {
+    return (
+        <div className="controlPanel">
+            <p>{"> Continue"}</p>
+        </div>
+    )
 }
 
 function Story() {
