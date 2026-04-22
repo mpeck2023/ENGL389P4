@@ -1,6 +1,6 @@
 import type { Passage } from "../types/Passage";
 
-export function parseFileToPassages(): string | null {
+export function parseFileToPassages(): Passage[] | null {
     // Import the file.
     // With this method, the filename passed to glob must be a string literal.
     const key = "../assets/passages.txt";
