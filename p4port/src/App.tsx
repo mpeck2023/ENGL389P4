@@ -69,10 +69,10 @@ function Flare() {
 }
 
 function TitleContainer() {
-    <div className="titleCon">
+    return (<div className="titleCon">
         <Title />
         <AsciiArt />
-    </div>
+    </div>)
 }
 
 function Title() {
@@ -121,7 +121,10 @@ function StoryBox(show) {
                 <div className="topLeft">Top Left</div>
                 <div className="topRight">Top Right</div>
                 <div className="bottom">
-                    <ControlPanel />
+                    <ControlPanel
+                        onContinue={() => console.log("Forward")}
+                        onGoBack={() => console.log("Backward")}
+                    />
                 </div>
             </div>
 

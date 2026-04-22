@@ -1,12 +1,38 @@
+import { useEffect, useState } from "react"
+
 export default function ControlPanel({
-    selectedOption
+    onContinue,
+    onGoBack
 }: {
-    selectedOption: number,
+    onContinue: () => void,
+    onGoBack: () => void
 }) {
+    const [selectedOption, setSelectedOption] = useState(0);
+
+    useEffect(() => {
+        const keyDownListener = (event: KeyboardEvent) => {
+            switch (event.key) {
+                case "ArrowDown":
+                    setSelectedOption(1)
+                    break
+                case "ArrowUp":
+                    setSelectedOption(0)
+                    break
+                case "Enter":
+                    selectedOption == 0 ? onContinue() : onGoBack()
+                    break
+            }
+        }
+
+        window.addEventListener('keydown', keyDownListener);
+
+        return () => window.removeEventListener('keydown', keyDownListener);
+    }, []);
+
     return (
         <div className="controlPanel">
-            <p>{`${selectedOption == 0 ? "> " : ""}Continue`}</p>
-            <p>{`${selectedOption == 1 ? "> " : ""}Go Back`}</p>
+            <p>{`${selectedOption == 0 ? ">" : ""} Continue`}</p>
+            <p>{`${selectedOption == 1 ? ">" : ""} Go Back`}</p>
         </div>
     )
 }
