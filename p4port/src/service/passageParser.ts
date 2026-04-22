@@ -1,6 +1,6 @@
 import type { Passage } from "../types/Passage";
 
-export function parseFileToPassages(): Passage[] | null {
+export function parseFileToPassages(): string | null {
     // Import the file.
     // With this method, the filename passed to glob must be a string literal.
     const key = "../assets/passages.txt";
@@ -13,7 +13,7 @@ export function parseFileToPassages(): Passage[] | null {
     if (!rawPassages) throw new Error(`No file found at ${key}`);
 
     const passages: Passage[] = [];
-
+    
     // ===============
     // Begin parsing
     // ===============
@@ -25,7 +25,6 @@ export function parseFileToPassages(): Passage[] | null {
     const EOP = "=="; // End of Passage
 
     const lines = rawPassages.split("\n");
-
     let i = 0;
 
     while (i < lines.length) {
@@ -72,6 +71,8 @@ export function parseFileToPassages(): Passage[] | null {
                 };
             }
 
+            else if (lines[i].startsWith(EOP)) {break}
+
             // Idk what we're looking at anymore :(
             else {
                 throw new Error(
@@ -85,6 +86,6 @@ export function parseFileToPassages(): Passage[] | null {
         passages.push(p);
         i++;
     }
-
+    
     return passages;
 }
