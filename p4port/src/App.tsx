@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function MyApp() {
     const [started, setStarted] = useState(false);
+    console.log(parseFileToPassages())
 
     // return (
     //     <>

@@ -1,8 +1,6 @@
 import type { Passage } from "../types/Passage";
 
-export function parseFileToPassages(filename: string): Passage[] | null {
-    if (!filename || filename.trim().length === 0) return null;
-
+export function parseFileToPassages(): Passage[] | null {
     // Import the file.
     // With this method, the filename passed to glob must be a string literal.
     const key = "../assets/passages.txt";
@@ -21,7 +19,6 @@ export function parseFileToPassages(filename: string): Passage[] | null {
     // ===============
 
     // Reserved symbols
-    const PID_INDICATOR = "id--"; // Passage ID indicaator
     const DIALOGUE_DELIM = "::";
     const CHOICE_DELIM = ">>";
     const CHOICE_THUMBNAIL_DELIM = "|||";
@@ -32,52 +29,47 @@ export function parseFileToPassages(filename: string): Passage[] | null {
     let i = 0;
 
     while (i < lines.length) {
-        const pName = lines[i++].split(PID_INDICATOR)[1];
-        const p: Passage = { name: pName, body: [], choices: [] };
+        const p: Passage = { body: [], continue: { text: "" } };
 
         // Loops over a single passage
         while (lines[i] != EOP) {
             // If we're looking at dialogue
             if (lines[i].startsWith(DIALOGUE_DELIM)) {
                 // `content` array looks somethihng like this:
-                // ["", "Speaker Name", "", "I'm saying this frfr!"]
+                // ["", "Speaker Name", "I'm saying this frfr!"]
                 // i.e., content[1] is the speaker's name
-                //       content[3] is what the speaker says
+                //       content[2] is what the speaker says
                 const content = lines[i].split(DIALOGUE_DELIM);
 
                 p.body.push({
-                    text: content[3],
+                    text: content[2],
                     speakerName: content[1],
                 });
             }
 
             // If we're looking at a choice
             else if (lines[i].startsWith(CHOICE_DELIM)) {
-                // `content` array looks somethihng like this:
-                // ["", "What I, the Robot, am saying rn.", "", "NEXT_PASSAGE_ID"]
-                // i.e., content[1] is what the choice looks like to the player
-                //       content[3] is the next passage to go to
-                //
-                // Optionally, content[1] can contain allow "thumbnail text" which will
-                // display for the choice, rather than the whole display text. This
-                // can be used to avoid spacing issues. Thumbnail text is placed
-                // before the display text and delimited with a "|||"
-                const content = lines[i].split(CHOICE_DELIM);
+                const content = lines[i].split(CHOICE_DELIM)[1];
 
-                let displayText = content[1];
-                let thumbnailText = null;
-                if (content[1].includes(CHOICE_THUMBNAIL_DELIM)) {
-                    [thumbnailText, displayText] = content[1].split(
+                let displayText = content;
+                let thumbnailText = undefined;
+
+                // If there's thumbnail, which would make `content`
+                // look something like this:
+                //
+                // "Say your two cents.|||I think you are terrible."
+                //
+                // The text to the left of "|||" is the thumbnail.
+                if (displayText.includes(CHOICE_THUMBNAIL_DELIM)) {
+                    [thumbnailText, displayText] = displayText.split(
                         CHOICE_THUMBNAIL_DELIM,
                     );
                 }
 
-                p.choices.push({
-                    id: lines[i],
-                    thumbnailText,
-                    displayText: `"${displayText}"`,
-                    nextPassage: content[3],
-                });
+                p.continue = {
+                    text: `"${displayText}"`,
+                    thumbnail: thumbnailText,
+                };
             }
 
             // Idk what we're looking at anymore :(
