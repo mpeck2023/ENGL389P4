@@ -1,7 +1,7 @@
 import { parseFileToPassages } from "./service/passageParser";
 import './App.css'
 import { useState } from "react";
-import ControlPanel from "../components/ControlPanel";
+import ControlPanel from "./components/ControlPanel";
 
 export default function MyApp() {
     const [started, setStarted] = useState(false);
