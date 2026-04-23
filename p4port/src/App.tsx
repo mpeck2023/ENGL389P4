@@ -108,7 +108,7 @@ function Subtitle() {
 function StoryBox(show) {
     return (
         <div
-            id="storybox" 
+            id="storybox"
             style={{
                 display: show ? "flex" : "none"
             }}

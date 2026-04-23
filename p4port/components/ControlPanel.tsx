@@ -12,14 +12,14 @@ export default function ControlPanel({
     useEffect(() => {
         const keyDownListener = (event: KeyboardEvent) => {
             switch (event.key) {
-                case "ArrowDown":
-                    setSelectedOption(1)
-                    break
                 case "ArrowUp":
                     setSelectedOption(0)
                     break
+                case "ArrowDown":
+                    setSelectedOption(1)
+                    break
                 case "Enter":
-                    selectedOption == 0 ? onContinue() : onGoBack()
+                    selectedOption == 0 ? onContinue() : onGoBack();
                     break
             }
         }
@@ -27,12 +27,12 @@ export default function ControlPanel({
         window.addEventListener('keydown', keyDownListener);
 
         return () => window.removeEventListener('keydown', keyDownListener);
-    }, []);
+    }, [selectedOption]);
 
     return (
         <div className="controlPanel">
-            <p>{`${selectedOption == 0 ? ">" : ""} Continue`}</p>
-            <p>{`${selectedOption == 1 ? ">" : ""} Go Back`}</p>
+            <p>{`${selectedOption == 0 ? ">" : "."} Continue`}</p>
+            <p>{`${selectedOption == 1 ? ">" : "."} Go Back`}</p>
         </div>
     )
 }
