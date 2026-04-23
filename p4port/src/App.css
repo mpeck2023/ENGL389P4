@@ -344,3 +344,7 @@ body::before {
 .controlPanel {
     margin: 1rem;
 }
+
+.terminal-logs {
+    margin: 1rem;
+}

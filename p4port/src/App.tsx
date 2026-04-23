@@ -2,10 +2,11 @@ import { parseFileToPassages } from "./service/passageParser";
 import './App.css'
 import { useState } from "react";
 import ControlPanel from "./components/ControlPanel";
+import TerminalLogs, { type TerminalLog } from "./components/TerminalLog";
+import type { Passage } from "./types/Passage";
 
 export default function MyApp() {
-    const [started, setStarted] = useState(false);
-    console.log(parseFileToPassages())
+    const [started, setStarted] = useState(true);
 
     // return (
     //     <>
@@ -18,7 +19,7 @@ export default function MyApp() {
     //         <StoryBox show={started} />
     //     </>
     // );
-    return <StoryBox show={started} />;
+    return <StoryBox show={started} passages={parseFileToPassages()!} />;
 }
 
 function ColorButton() {
@@ -105,7 +106,10 @@ function Subtitle() {
     );
 }
 
-function StoryBox(show) {
+function StoryBox({show, passages}: {show: boolean, passages: Passage[]}) {
+    const [storyI, setStoryI] = useState(0);
+    const logs: TerminalLog[] = passages.map(p => p.body).flat();
+
     return (
         <div
             id="storybox"
@@ -119,11 +123,15 @@ function StoryBox(show) {
             <Choices /> */}
             <div className="layout">
                 <div className="topLeft">Top Left</div>
-                <div className="topRight">Top Right</div>
+                <div className="topRight">
+                    <TerminalLogs
+                        logs={logs.slice(0, storyI)}
+                    />
+                </div>
                 <div className="bottom">
                     <ControlPanel
-                        onContinue={() => console.log("Forward")}
-                        onGoBack={() => console.log("Backward")}
+                        onContinue={() => setStoryI(i => i + 1)}
+                        onGoBack={() => setStoryI(i => Math.max(0, i - 1))}
                     />
                 </div>
             </div>
