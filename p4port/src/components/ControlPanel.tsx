@@ -31,8 +31,8 @@ export default function ControlPanel({
 
     return (
         <div className="controlPanel">
-            <p>{`${selectedOption == 0 ? ">" : "."} Continue`}</p>
-            <p>{`${selectedOption == 1 ? ">" : "."} Go Back`}</p>
+            <p>{`${selectedOption == 0 ? ">" : "."} Continue ${selectedOption == 0 ? " (Enter)" : ""}`}</p>
+            <p>{`${selectedOption == 1 ? ">" : "."} Go Back ${selectedOption == 1 ? " (Enter)" : ""}`}</p>
         </div>
     )
 }

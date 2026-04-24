@@ -25,6 +25,8 @@ export function parseFileToPassages(): Passage[] | null {
     const EOP = "=="; // End of Passage
 
     const lines = rawPassages.split("\n");
+    const asciiList = parseFileToAscii();
+    console.log(asciiList)
     let i = 0;
 
     while (i < lines.length) {
@@ -39,10 +41,16 @@ export function parseFileToPassages(): Passage[] | null {
                 // i.e., content[1] is the speaker's name
                 //       content[2] is what the speaker says
                 const content = lines[i].split(DIALOGUE_DELIM);
+                
+                let ascii_text = asciiList.get(content[1])
+                console.log(ascii_text)
+                if (ascii_text == undefined) {ascii_text = asciiList.get("Generic")}
+                if (ascii_text == undefined) {ascii_text = ""}
 
                 p.body.push({
                     text: content[2],
                     speakerName: content[1],
+                    ascii: ascii_text
                 });
             }
 
@@ -69,6 +77,7 @@ export function parseFileToPassages(): Passage[] | null {
                     text: `"${displayText}"`,
                     thumbnail: thumbnailText,
                 };
+
             } else if (lines[i].startsWith(EOP)) {
                 break;
             }
@@ -88,4 +97,30 @@ export function parseFileToPassages(): Passage[] | null {
     }
 
     return passages;
+}
+
+function parseFileToAscii(): Map<string, string> {
+    const key = "../assets/ascii.txt";
+    const fileImport = import.meta.glob("../assets/ascii.txt", {
+        as: "raw",
+        eager: true,
+    });
+    const rawAsciis = fileImport[key];
+
+    if (!rawAsciis) throw new Error(`No file found at ${key}`);
+
+    const asciis = new Map<string, string>();
+
+    const NEW_CHARACTER_DELIM = "!!";
+    const CHARACTER_NAME_DELIM = "||";
+
+    const characters = rawAsciis.split(NEW_CHARACTER_DELIM);
+    
+    characters.forEach((character) => {
+        const name_ascii = character.split(CHARACTER_NAME_DELIM)
+        asciis.set(name_ascii[0],name_ascii[1])
+    })
+
+    return asciis;
+
 }

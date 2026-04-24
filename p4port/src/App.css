@@ -184,32 +184,6 @@ body::before {
     min-height: 0;
 }
 
-/* Firefox scrollbar */
-#story {
-    scrollbar-color: hsl(var(--hue), 87%, 62%) transparent;
-    scrollbar-width: thin;
-    scroll-behavior: smooth;
-}
-
-/* Chrome, Edge, Safari scrollbar */
-#story::-webkit-scrollbar {
-    width: 10px;
-    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
-}
-#story::-webkit-scrollbar-track {
-    background: transparent;
-    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
-}
-#story::-webkit-scrollbar-thumb {
-    background: hsl(var(--hue), 87%, 62%);
-    border-radius: 5px;
-    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
-}
-#story::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--hue), 100%, 72%);
-    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
-}
-
 /* Choices container */
 #choices {
     flex-shrink: 0;
@@ -329,11 +303,20 @@ body::before {
 .topLeft {
   grid-area: topLeft;
   border: 1px solid black;
+  font-size: .55vw;
+  text-align: center;
+  align-content: center;
+  white-space-collapse: preserve;
+  line-height: 1;
+  user-select: none;
 }
 
 .topRight {
   grid-area: topRight;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 }
 
 .bottom {
@@ -350,10 +333,35 @@ body::before {
     display: flex;
     flex-direction: column;
     gap: .6rem;
-    height: 100%;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 .past-log {
     color: hsl(var(--hue), 100%, 25%);
+}
+
+/* Firefox scrollbar */
+.terminal-logs {
+    scrollbar-color: hsl(var(--hue), 87%, 62%) transparent;
+    scrollbar-width: thin;
+    scroll-behavior: auto;
+}
+
+/* Chrome, Edge, Safari scrollbar */
+.terminal-logs::-webkit-scrollbar {
+    width: 10px;
+    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
+}
+.terminal-logs::-webkit-scrollbar-track {
+    background: transparent;
+    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
+}
+.terminal-logs::-webkit-scrollbar-thumb {
+    background: hsl(var(--hue), 87%, 62%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
+}
+.terminal-logs::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--hue), 100%, 72%);
+    box-shadow: 0 0 10px hsl(var(--hue), 100%, 20%);
 }
