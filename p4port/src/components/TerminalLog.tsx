@@ -26,6 +26,7 @@ export default function TerminalLogs({ logs }: { logs: TerminalLog[] }) {
             {currLog && (
                 <p className="current-log">
                     {currLog.speakerName}: {currLog.text}
+                    <p className="cursor">▌</p>
                 </p>
             )}
         </div>
