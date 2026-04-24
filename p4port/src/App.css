@@ -231,6 +231,7 @@ body::before {
   white-space-collapse: preserve;
   line-height: 1;
   user-select: none;
+  animation: shadowFlicker 2s infinite;
 }
 
 .topRight {

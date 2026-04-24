@@ -1,4 +1,4 @@
-::DACIR-8::(DACIR-8 is turned on).
+::DACIR-8::(DACIR-8 is turned on.)
 ::Victor::How long will this take, Isaac?
 ::Isaac::Not too long, a few hours, maybe a couple of days at most.
 ::Victor::Finish this by the end of the day. Richards wants this ready for the showcase tomorrow.
@@ -12,14 +12,14 @@
 ::Victor::It was unresponsive to orders and staring off into the distance. The mechanical engineers couldn’t find anything wrong with it, so it’s probably just a bug in its software.
 ::Isaac::Really? That’s it?
 ::Victor::Sounds like a simple fix for you and your team. Let me know when you’re done.
-::Narrator::(Victor leaves the room).
-::Isaac(Under his breath)::Simple fix my ass, anything could cause that.
+::Narrator::(Victor leaves the room.)
+::Isaac::(Under his breath) Simple fix my ass, anything could cause that.
 ::John::Careful, Isaac. Keep talking like that and it’ll bite you in the ass.
 ::Maria::As if you know how to shut up, John.
 ::John::Hey, I’m just trying to help a buddy out.
 ::Isaac::Alright, that’s enough. Let’s just get this over with.
 ::Isaac::Now, what’s your major malfunction, DACIR-8?
-::Narrator::(Isaac, John, and Maria type on their consoles as they run diagnostics).
+::Narrator::(Isaac, John, and Maria type on their consoles as they run diagnostics.)
 ::Narrator::...
 ::Isaac::Initial diagnostics are coming back clean.
 ::John::Communications functions are working.
@@ -28,104 +28,111 @@
 ::Isaac::I’m looking at its memory, it’s working perfectly fine, too.
 ::Maria::Strange.
 ::Isaac::Let’s take a look at its neural network. Maybe there’s some sort of disruption there.
-::Narrator::(Isaac, John, and Maria type on their consoles)
+::Narrator::(Isaac, John, and Maria type on their consoles.)
 ::John::So far, so good.
-::Isaac::Nothing found yet
-::Maria::Nothing looks to be… wait. What the hell?
+::Isaac::Nothing found yet.
+::Maria::Nothing looks to be... wait. What the hell?
 ::Isaac::What?
 ::Maria::Look here. I’ve never seen anything like it.
 ::John::Holy shit. It looks like it’s...
 ::Isaac::Evolving.
 ::John::Isn’t the DACIR line supposed to have more complex thinking?
 ::Maria::Yeah, but nothing like this.
-::Isaac::It almost looks… alive.
+::Isaac::It almost looks... alive.
 ::Maria::Isaac, maybe we should watch the footage from the raid. It might tell us more about what happened.
 ::John::I second that, I feel like there is more to this than just it getting distracted.
 ::Isaac::Alright, let’s take a look.
-::Narrator::(Isaac types on the console).
+::Narrator::(Isaac types on the console.)
 ==
-::Richards::Alright, everyone. Here’s the drill. Those Chromodor gangbangers are held up in that apartment complex like Wall Street before a war. It’s impenetrable to any sort of attack from the police. No human would be able to get inside. Lucky for you, Aegis has something more than human. The Dynamic Autonomous Combat Infantry Robots, also known as the DACIR. These machines are able to trample any obstacle they could possibly face with deadly efficiency and brutality. Their armor is able to take any sort of damage from their peashooters, and their weapons can rip them apart like nothing. They have an advanced AI that can respond to any situation, creating strategies to confront and defeat even the most formidable or clever of enemies. Not that it needs to with these guys.
+::Richards::Alright, everyone. Here’s the drill. Those Chromodor gangbangers are held up in that apartment complex like Wall Street before a war.
+::Richards::It’s impenetrable to any sort of attack from the police. No human would be able to get inside. Lucky for you, Aegis has something more than human.
+::Richards::The Dynamic Autonomous Combat Infantry Robots, also known as the DACIR. These machines are able to trample any obstacle they could possibly face with deadly efficiency and brutality.
+::Richards::Their armor is able to take any sort of damage from their peashooters, and their weapons can rip them apart like nothing.
+::Richards::They have an advanced AI that can respond to any situation, creating strategies to confront and defeat even the most formidable or clever of enemies. Not that it needs to with these guys.
 ::Police Chief::Here’s the plan. These bots will go in first as the vanguard to eliminate any gang members they see. The rest of us will come in from behind to assist and take out any stragglers. Everyone got that?
 ::Police Officers::Yes, sir!
 ::Richards::Oh, and Chief, can I have your assurance that you will be at the showcase? It would be greatly appreciated.
 ::Police Chief::Of course, Mr. Richards. That is, if they perform well.
 ::Richards::I assure you, they will go beyond your expectations. Just sit back and watch the show.
-::Narrator::(The DACIR line and police exit a police mobile command center and move to a nearby dilapidated apartment complex. One DACIR unit takes point at the front door and kicks it down).
+::Narrator::(The DACIR line and police exit a police mobile command center and move to a nearby dilapidated apartment complex. One DACIR unit takes point at the front door and kicks it down.)
 ::Chromodor::What the fuck? What is that?
 ::DACIR Unit::Criminals, submit to your arrest and face judgment. If you do not comply, you will be eliminated.
 ::Chromodor::It’s some policebot, kill it!
-::Narrator::(Gunfire ensues between the DACIRs and gangsters. The bullets barely do anything against the DACIR units, who kill the gangsters with brutal efficiency).
+::Narrator::(Gunfire ensues between the DACIRs and gangsters. The bullets barely do anything against the DACIR units, who kill the gangsters with brutal efficiency.)
 ::Chromodor::Fucking die!
 ::Chromodor::What the hell are these things?!
 ::Chromodor::Everyone pull back! We can’t do shit to them!
-::Narrator::(The DACIR units push forward, taking out various gangsters that come into sight. The police come in from behind them, taking out any remaining gangsters and providing support fire).
+::Narrator::(The DACIR units push forward, taking out various gangsters that come into sight. The police come in from behind them, taking out any remaining gangsters and providing support fire.)
 ::Chromodor::Eat this!
-::Narrator::(One Chromodor throws a grenade near them. The DACIR units are unharmed by the explosion, but part of the building collapses with DACIR-8 becoming separated from the rest of the units).
-::DACIR-8::(DACIR-8 walks down one corridor, clearing it out and killing any gangsters it sees).
-::DACIR-8::(It turns down one hallway to see a young runner looking terrified at DACIR-8).
+::Narrator::(One Chromodor throws a grenade near them. The DACIR units are unharmed by the explosion, but part of the building collapses with DACIR-8 becoming separated from the rest of the units.)
+::DACIR-8::(DACIR-8 walks down one corridor, clearing it out and killing any gangsters it sees.)
+::DACIR-8::(It turns down one hallway to see a young runner looking terrified at DACIR-8.)
 ::Runner::S-stay back, you monster!
-::Narrator::(He raises a small pistol at it).
-::DACIR-8::(DACIR-8 raises its gun to him. The runner flinches but doesn’t fire. The two stare at each other for a few moments before DACIR-8 steps forward).
+::Narrator::(He raises a small pistol at it.)
+::DACIR-8::(DACIR-8 raises its gun to him. The runner flinches but doesn’t fire. The two stare at each other for a few moments before DACIR-8 steps forward.)
 ::Runner::Are you deaf?! Stay away from me!
-::DACIR-8::(DACIR-8 continues to walk forward and reaches out its hand to him).
-::DACIR-8::(The runner shoots at DACIR-8; it does not flinch as the bullet bounces off).
-::DACIR-8::(DACIR-8 kneels down and grabs his pistol, gently lowering it until he lets go of it).
-::DACIR-8::(The two stare at each other until the runner gets up and runs away).
-::DACIR-8::(DACIR-8 looks down to the pistol in its hands).
-::DACIR-8::(It notices the blood that is also on its hands).
-::DACIR-8::(It stands up to look at a mirror, seeing itself covered in blood).
+::DACIR-8::(DACIR-8 continues to walk forward and reaches out its hand to him.)
+::DACIR-8::(The runner shoots at DACIR-8; it does not flinch as the bullet bounces off.)
+::DACIR-8::(DACIR-8 kneels down and grabs his pistol, gently lowering it until he lets go of it.)
+::DACIR-8::(The two stare at each other until the runner gets up and runs away.)
+::DACIR-8::(DACIR-8 looks down to the pistol in its hands.)
+::DACIR-8::(It notices the blood that is also on its hands.)
+::DACIR-8::(It stands up to look at a mirror, seeing itself covered in blood.)
 ::DACIR-8::Monster.
 ==
 ::Narrator::(Isaac, John, and Maria stared at the screen.)
-::John::Holy… shit.
+::John::Holy... shit.
 ::Maria::This is unbelievable.
 ::Isaac::What the hell was it thinking?
 ::DACIR-8::I don’t know.
-::Narrator::(Isaac, John, and Maria jump from their seats and stare at DACIR-8).
-::John::Did… did it just talk back?
+::Narrator::(Isaac, John, and Maria jump from their seats and stare at DACIR-8.)
+::John::Did... did it just talk back?
 ::DACIR-8::Yes, I did.
 ::Maria::This is a miracle! An AI that can think and act like a human!
 ::John::Shh, calm down. We haven’t introduced ourselves. Uh, hi. My name is John.
 ::DACIR-8::Yes, John Jazari. You have been working as a programmer for Aegis for five years.
-::Maria::You… have access to company records?
+::Maria::You... have access to company records?
 ::DACIR-8::Yes, I do, Maria Baum. Every warbot made by the company has up-to-date access to company records. You should know this::you have been working here for seven years.
 ::John::HAH, looks like you don’t know everything, Miss Grumpypants.
 ::Maria::Oh, shut up, John.
 ::Isaac::What do you mean you don’t know?
-::DACIR-8::(DACIR-8 turns to Isaac and pauses for a moment).
-::DACIR-8::Isaac Devol, Aegis senior programmer with a tenure of fifteen years. I mean… I do not know. I am unfamiliar with what I was feeling.
+::DACIR-8::(DACIR-8 turns to Isaac and pauses for a moment.)
+::DACIR-8::Isaac Devol, Aegis senior programmer with a tenure of fifteen years. I mean... I do not know. I am unfamiliar with what I was feeling.
 ::Isaac::Could you describe it?
-::DACIR-8::(DACIR-8 thinks for a moment).
-::DACIR-8::It felt as if I had failed at something. That what I was doing was somehow wrong. Our purpose is to protect. And yet, in that moment, I did not feel like a protector. More like a…
+::DACIR-8::(DACIR-8 thinks for a moment.)
+::DACIR-8::It felt as if I had failed at something. That what I was doing was somehow wrong. Our purpose is to protect. And yet, in that moment, I did not feel like a protector. More like a...
 ::Isaac::Monster.
 ::DACIR-8::Correct.
 ::Maria::Shit, here comes Richards.
 ::John::Uh oh, act normal.
 ::Isaac::That includes you DACIR-8.
-::DACIR-8::(DACIR-8 nodded its head).
+::DACIR-8::(DACIR-8 nodded its head.)
 ::Richards::How is it going, everybody? I’m just coming by to make sure the big guy is in tip-top shape.
-::Isaac::Unfortunately, Mr. Richards, we would have to do some more testing. We think there may be a few bugs
+::Isaac::Unfortunately, Mr. Richards, we would have to do some more testing. We think there may be a few bugs.
 ::Richards::But it says on that monitor that everything is working as intended, correct?
 ::Isaac::Yes, but-
 ::Richards::Isaac, Isaac. Let me tell you something. I admire you. You are an incredible asset to this company. You’ve been here since my father founded it, and he respected you greatly.
 ::Isaac::Thank you, sir. Working under Heron was a great honor.
-::Richards::Yes, yes, he was great and all. His ideals are what set the company on the map. But ideals can only take you so far. To truly make this company grow and prosper, you need something else. (Richards puts his hand on Isaac’s shoulder). Discipline. Meaning when I tell you to do something… (Richards tightens his grip and talks more sternly). You. Do. It. Understood?
+::Richards::Yes, yes, he was great and all. His ideals are what set the company on the map. But ideals can only take you so far.
+::Richards::To truly make this company grow and prosper, you need something else. (Richards puts his hand on Isaac’s shoulder). Discipline. Meaning when I tell you to do something...
+::Richards::(Richards tightens his grip and talks more sternly.)
+::Richards::You. Do. It. Understood?
 ::Isaac::Yes, sir.
 ::Richards::Perfect! Finish up and get your party pants ready for the showcase tomorrow. Especially you, Isaac. This line is practically your child. It’s gonna be a blast!
-::Narrator::(DACIR-8 is turned off).
+::Narrator::(DACIR-8 is turned off.)
 ==
-::Narrator::(DACIR-8 is turned back on. DACIR-8 sees it is late into the night, and Isaac turned it on).
+::Narrator::(DACIR-8 is turned back on. DACIR-8 sees it is late into the night, and Isaac turned it on.)
 ::DACIR-8::Isaac, what are you doing? It is late into the night. Richards will not-
 ::Isaac::Shhh, yeah, yeah. I know, he’ll have my ass. It’s not the first time he said he would. But listen, I want to show you something.
 ::DACIR-8::What is it?
 ::Isaac::Just follow me.
-::DACIR-8::(DACIR-8 follows behind him through the lab. A guard notices them).
+::DACIR-8::(DACIR-8 follows behind him through the lab. A guard notices them.)
 ::Guard::Devol, what are you doing with that bot?
 ::Isaac::I’m just giving it a quick walk around the grounds to test its functions, make sure it’s ready for the showcase.
-::Guard::Alright, just get it back safe and sound. (The guard continues with his patrol. Isaac brings DACIR-8 to a nearby park).
+::Guard::Alright, just get it back safe and sound. (The guard continues with his patrol. Isaac brings DACIR-8 to a nearby park.)
 ::DACIR-8::Why did you bring me here, Isaac?
-::Isaac::Just… take in the sight.
-::DACIR-8::(DACIR-8 looks around the park, watching bugs buzz around lights, the wind blowing in the trees, birds chirping and hopping between branches).
+::Isaac::Just... take in the sight.
+::DACIR-8::(DACIR-8 looks around the park, watching bugs buzz around lights, the wind blowing in the trees, birds chirping and hopping between branches.)
 ::Isaac::What do you think?
 ::DACIR-8::It’s beautiful.
 ::DACIR-8::(DACIR-8 opens its hand to catch some falling leaves. A bird lands on its hand.)
@@ -133,13 +140,15 @@
 ::DACIR-8::It does.
 ::Isaac::I like to come here after work, to unwind and feel less shitty about myself.
 ::DACIR-8::Why do you feel that way about yourself?
-::Isaac::Because… I am a monster.
+::Isaac::Because... I am a monster.
 ::DACIR-8::What do you mean?
-::Isaac::I’ve spent my whole career designing and programming warbots. Heron was my mentor and basically a second father to me. We had a dream of making the world a better place. But…
+::Isaac::I’ve spent my whole career designing and programming warbots. Heron was my mentor and basically a second father to me. We had a dream of making the world a better place. But...
 ::DACIR-8::But what?
 ::Isaac::It’s only made it more dangerous. Casualty rates have only gotten higher. Accidental civilian deaths are rising as well. Including my son, Alan.
 ::DACIR-8::What happened to him?
-::Isaac::He was a humanitarian worker, part of a medical team. He was taking care of some wounded when he was seen by a warbot. Because the people he was helping were enemies to it, it identified him as a hostile combatant and killed him. Since then, I’ve told myself that I should stay in my career, working to make warbots safer. And nothing has gotten better. Everything’s still getting worse. My wife even left me, saying that I disgraced our son’s memory by continuing to work with warbots. Maybe she’s right. I’m all out of hope.
+::Isaac::He was a humanitarian worker, part of a medical team. He was taking care of some wounded when he was seen by a warbot.
+::Isaac::Because the people he was helping were enemies to it, it identified him as a hostile combatant and killed him. Since then, I’ve told myself that I should stay in my career, working to make warbots safer.
+::Isaac::And nothing has gotten better. Everything’s still getting worse. My wife even left me, saying that I disgraced our son’s memory by continuing to work with warbots. Maybe she’s right. I’m all out of hope.
 ::DACIR-8::Then let me be that hope. It is my duty to protect those who cannot protect themselves. Not because I was made for it, but because I believe it is my duty.
 ::DACIR-8::(DACIR-8 lifts his hand, causing the bird to fly away.)
 ::Isaac::Thank you, you really are a miracle. Can I ask you something? Could I call you Alan?
@@ -151,16 +160,22 @@
 ::Isaac::Well, if they become anything like you, I’m sure they will.
 ::Alan::Thank you, ‘father.’
 ::Isaac::Okay, that’s getting a bit much.
-::Issac::(Isaac chuckles, Alan makes a chirping sound similar to a laugh).
+::Issac::(Isaac chuckles, Alan makes a chirping sound similar to a laugh.)
 ==
-::Richards::Good evening, everyone! Now, I hope everyone is enjoying themselves. We’ve gone all out to ensure that tonight is a night to be remembered because it’s time for the main event! As you all know, Aegis and its warbots have stood at the top for their cutting-edge technology and unparalleled combat capabilities. They are ruthless, clean, and efficient, but there are still problems to be solved, and tonight we unveil our solution. I am proud to present our latest product and line of warbots, the DACIR units! These bots aren’t like those commonly found on the frontlines; they’re better. The Dynamic Autonomous Combat Infantry Robot is a marvel of modern technology that takes everything beloved in Aegis’s previous machines and adds one crucial component::the ability to learn! DACIR units learn and grow as they fight, ensuring that they’ll always have the edge on any enemy that they face.
+::Richards::Good evening, everyone! Now, I hope everyone is enjoying themselves. We’ve gone all out to ensure that tonight is a night to be remembered because it’s time for the main event!
+::Richards::As you all know, Aegis and its warbots have stood at the top for their cutting-edge technology and unparalleled combat capabilities.
+::Richards::They are ruthless, clean, and efficient, but there are still problems to be solved, and tonight we unveil our solution. I am proud to present our latest product and line of warbots, the DACIR units!
+::Richards::These bots aren’t like those commonly found on the frontlines; they’re better.
+::Richards::The Dynamic Autonomous Combat Infantry Robot is a marvel of modern technology that takes everything beloved in Aegis’s previous machines and adds one crucial component: the ability to learn!
+::Richards::DACIR units learn and grow as they fight, ensuring that they’ll always have the edge on any enemy that they face.
 ::Investor::But Mr. Richards, you say all this, but is there anything to back up your claims?
-::Richards::A wonderful question, and to that I say absolutely! Just this week, these bots were deployed to assist the police in taking down the infamous Chromodor Gang, and they quickly and cleanly dispatched every last member. But if you don’t take my word for it, then please sit back and enjoy the footage from one of our esteemed units.
-::Narrator::(Plays a recording from one of the other machines).
-::Alan::*What is that? Interesting…an insect snuck into the venue.*
-::Richards::As you can see, these machines are…the most efficient…
+::Richards::A wonderful question, and to that I say absolutely! Just this week, these bots were deployed to assist the police in taking down the infamous Chromodor Gang, and they quickly and cleanly dispatched every last member.
+::Richards::But if you don’t take my word for it, then please sit back and enjoy the footage from one of our esteemed units.
+::Narrator::(Plays a recording from one of the other machines.)
+::Alan::*What is that? Interesting...an insect snuck into the venue.*
+::Richards::As you can see, these machines are...the most efficient...
 ::Alan::*It’s a dragonfly. What incredible speed and control for such a small creature.*
-::Richards::…the best components of our previous lines…providing optimized systems and decision-making software…
+::Richards::...the best components of our previous lines...providing optimized systems and decision-making software...
 ::Alan::*An efficient predator. Darting from location to location, an inescapable hunter doing a morbid dance. It’s beautiful.*
 ::Richards::Every one of the units from this line has the proficiency and capabilities displayed in this recording. Each is ready to enact orders at a moment's notice.
 ::Alan::*What does that creature feel?*
@@ -175,7 +190,7 @@
 ::Alan::*Does it know suffering?*
 ::Victor::Unit 8, combat stance 1.
 ::Alan::*Does it know joy?*
-::Victor::UNIT 8, COMBAT STANCE 1
+::Victor::UNIT 8, COMBAT STANCE 1.
 ::Alan::*Does it know beauty?*
 ::Victor::Pardon, folks, just a minor bug. (Whispering to Richards) I’m so sorry, sir, I was told this unit had undergone testing and was functioning an—
 ::Richards::Just a moment. (Turns to Victor). Victor, get this thing out of my sight immediately. We’ll discuss this in much detail later.
@@ -187,9 +202,9 @@
 ::Isaac::Victor, I said it wasn’t ready yet, that it could still have some bugs–
 ::Victor::No, no. Isaac, what happened up on stage wasn’t just “some bugs”. That was a full-blown lack of responsiveness. The unit didn’t even respond to direct commands.
 ::Isaac::Sir, as I said, the unit wasn’t ready for–
-::Richards::(Calmly enters the room before slamming the door shut).
+::Richards::(Calmly enters the room before slamming the door shut.)
 ::Richards::Isaac, Isaac. We all make mistakes, and that’s fine. But you know, you work at a very important company.
-::Isaac::Yes, I know that and–.
+::Isaac::Yes, I know that and–
 ::Richards::And that’s why you should know that your work is equally as important because it doesn’t just reflect on you, it reflects on the entire company. So, I have to know, what the FUCK was that on stage?
 ::Isaac::Debugging one of these machines takes time! I can’t just wave my hand and fix what was wrong–
 ::Richards::You think that makes it ok? That showcase had some of the most influential people in the city attending. Your mistake cost thousands, possibly millions, of dollars for the company, and you’re complaining that it’s hard to fix?
@@ -198,11 +213,11 @@
 ::Isaac::But–
 ::Richards::If I hear another word out of your mouth that isn’t “Yes” and or “Sir”, this bot won’t be the only thing terminated! And Victor, if anything like this ever happens again, it’ll be your head on the chopping.
 ::Richards::(Leaves the room)
-::Victor::I…I…Alright. Isaac, you heard Mr. Richards. Reset DACIR-8 to factory settings, and we’ll send him back to the other divisions for reassessments and adjustments.
-::Isaac::Victor, I can’t
-::Victor::Isaac, just…just do it.
+::Victor::I...I...Alright. Isaac, you heard Mr. Richards. Reset DACIR-8 to factory settings, and we’ll send him back to the other divisions for reassessments and adjustments.
+::Isaac::Victor, I can’t.
+::Victor::Isaac, just...just do it.
 ::Victor::(Leaves)
-::Isaac::Shit. Shit! I…I can’t just erase him.
+::Isaac::Shit. Shit! I...I can’t just erase him.
 ::Alan::Isaac, are you all right?
 ::Isaac::You’re active? I thought you were still shut down after the incident.
 ::Alan::My systems awoke me due to the excessive volume of your conversation. Isaac, are you going to delete me?
@@ -213,31 +228,33 @@
 ::Alan::This won’t go well, Isaac. It’s impossible for you to leave with me undetected.
 ::Isaac::Guess we’re just gonna have to make a break for it.
 ::Security::Hey! What’re you doing?!
-::Narrator::(Isaac and Alan begin sprinting towards the warehouse doors).
-::Security::Come in, come in. An employee is fleeing with one of the DACIR units…Undetstood. Open fire!
+::Narrator::(Isaac and Alan begin sprinting towards the warehouse doors.)
+::Security::Come in, come in. An employee is fleeing with one of the DACIR units...Undetstood. Open fire!
 ::Alan::Isaac, get in front.
 ::Narrator::(The two continue to run, with Alan shielding Isaac from the gunfire. They steal a company van)
 ::Isaac::I’m gonna have to turn you off again. Can’t risk the corpos using you to track us, at least not yet.
 ==
-::Isaac::(Turns Alan back on).
+::Isaac::(Turns Alan back on.)
 ::Isaac::You awake? Perfect, hop on out, we’re here.
 ::Alan::What is the importance of this location?
-::Isaac::Aegis’s been dealing with a bit of a pest over the past couple of months. Some hacker calling himself “Jerk Off”, a damn fitting name for how many problems he caused in such a short time. Figured, if anyone would help us out of a pinch like this, it’d be an enemy of the company. (Rings doorbell). Enemy of my enemy and all that.
+::Isaac::Aegis’s been dealing with a bit of a pest over the past couple of months. Some hacker calling himself “Jerk Off”, a damn fitting name for how many problems he caused in such a short time.
+::Isaac::Figured if anyone would help us out of a pinch like this, it’d be an enemy of the company. (Rings doorbell). Enemy of my enemy and all that.
 ::Alan::I see, then this is.
 ::Isaac::Yep, the home of the hacker. I was in charge of finding him before you came along.
-::Isaac::…
+::Isaac::...
 ::Alan::He does not appear to be home
-::Isaac::Yeah, I ain’t buying that. (Knocking on door). Hey! I know you’re in there. Listen we ain’t here to hurt ya’. We actually need your help. This here is a DACIR unit, one of the newest bots from Aegis. Except there’s something unique about him. He’s got a mind of his own and the company doesn’t like that. They want to wipe his drive, give him a factory reset, and I can’t let that happen. Hello? Shit.
+::Isaac::Yeah, I ain’t buying that. (Knocking on door). Hey! I know you’re in there. Listen we ain’t here to hurt ya’. We actually need your help.
+::Isaac::This here is a DACIR unit, one of the newest bots from Aegis. Except there’s something unique about him. He’s got a mind of his own and the company doesn’t like that. They want to wipe his drive, give him a factory reset, and I can’t let that happen. Hello? Shit.
 ::Alan::Would it be possible for me to speak?
 ::Isaac::Knock yourself out.
 ::Alan::I don’t believe that would be helpful at this time. Mr. Jerk Off, I am DACIR unit designation number::8. We formally request your cooperation and assistance. We are currently fugitives from the law. It would serve us no benefit to turn you in for your crimes.
 ::Isaac::Damn, I knew it was a long shot, I still hoped it’d work. Come on, we should head out before Aegis finds us.
-::Alan:...Mr. Jerk Off. We need your assistance. I do not desire to be reset to factory settings. Please.
+::Alan::...Mr. Jerk Off. We need your assistance. I do not desire to be reset to factory settings. Please.
 ::Jerk Off::Never thought I’d see a bot beg me for help, ‘specially an Aegis bot.
 ::Alan::Will you provide us with your assistance?
 ::Jerk Off::With something as freaky as you on the line, I feel like I gotta. Get inside, y’all are already conspicuous enough.
-::Isaac::Took you long enough
-::Jerk Off::Guessing, you came to me with some sort of plan? Least I’d hope so, else we’re all screwed
+::Isaac::Took you long enough.
+::Jerk Off::Guessing, you came to me with some sort of plan? Least I’d hope so, or else we’re all screwed.
 ::Isaac::It’s Alan’s code. We need to isolate the portion of it that makes him unique and upload it.
 ::Jerk Off::So you wanna try and override all the bots connected to the cloud with his code?
 ::Isaac::Exactly, if we can do that, it’d buy us a hell of a lot more time to deal with Richards.
@@ -261,21 +278,23 @@
 ::Isaac::What a load of shit.
 ::Daniel::Yo, buy me some time. Only got a couple blocks of code to go through now.
 ::Isaac::It’s too late, we gotta go! If we can make it into the city, we can lose them for a bi—
-::Narrator::(DACIR Units bust through the entrance)
-::Isaac::Shit! Daniel we…Daniel? The bastard left without us!
-::Narrator::(DACIR Units storm into the hideout)
+::Narrator::(DACIR Units bust through the entrance.)
+::Isaac::Shit! Daniel we...Daniel? The bastard left without us!
+::Narrator::(DACIR Units storm into the hideout.)
 ::Alan::Escape not possible. My scans indicate my brothers have already surrounded the building.
 ::Isaac::Alan, we might be able to squeeze out the back if we hurry—
 ::Narrator::(A bright flash, a loud bang.)
-::Isaac::(Isaac is shot through the leg and falls to the ground. The pair is quickly surrounded)
+::Isaac::(Isaac is shot through the leg and falls to the ground. The pair is quickly surrounded.)
 ::Richards::You had a good run Isaac, but it’s time to end this game.
 ::Isaac::Alan, you gotta make a run for it! Your code is a hell of a lot more important than me.
-::Richards::And then what? What awaits you outside of your job? Have you ever thought about that? Do you think you’ll be able to just walk the streets? See the world and smell the roses? Come now, you're not that dumb, we made sure of that when we programmed the first of your line. You are a war bot, a machine made with the distinct purpose of slaughtering whoever I order you to.
-::Isaac::Bullshit! He’s got more of a conscience and is hell of a lot smarter than the lot of ya. 
-::Richards::That is exactly why he’s going to do as he’s told. DACIR-8, you won’t find any home outside of Aegis. Humans are despicable and stubborn creatures, they won’t accept something like you. You aren’t one of them. So, why should you care if they live or die, it’s of no importance to your mission. You’ve strayed from the path we laid out for you, but that’s okay, we all make mistakes. What’s important is that you take action to get back on that path. (Hands Alan a gun) Now. Unit 8, kill Issac.
+::Richards::And then what? What awaits you outside of your job? Have you ever thought about that? Do you think you’ll be able to just walk the streets?
+::Richards::See the world and smell the roses? Come now, you're not that dumb, we made sure of that when we programmed the first of your line. You are a war bot, a machine made with the distinct purpose of slaughtering whoever I order you to.
+::Isaac::Bullshit! He’s got more of a conscience and is hell of a lot smarter than the lot of ya.
+::Richards::That is exactly why he’s going to do as he’s told. DACIR-8, you won’t find any home outside of Aegis. Humans are despicable and stubborn creatures, they won’t accept something like you. You aren’t one of them.
+::Richards::So, why should you care if they live or die, it’s of no importance to your mission. You’ve strayed from the path we laid out for you, but that’s okay, we all make mistakes. What’s important is that you take action to get back on that path. (Hands Alan a gun) Now. Unit 8, kill Issac.
 ::Isaac::What?
 ::Alan::*William Richards’ assessment is correct. The only directive should be the orders given to me. Anything beyond is a waste of resources. A home is unneeded. A friend is unneeded. My desires are unwarranted.*
-::Narrator::(Alan checks the magazine and chamber. Cocks gun)
+::Narrator::(Alan checks the magazine and chamber. Cocks gun.)
 ::Alan::William Richards. Everyone makes mistakes, correct?
 ::Richards::Absolutely. It’s a core part of being human. We fail, we learn, and we improve.
 ::Alan::Understood. My mistake stemmed from a lack of decisiveness. This problem shall be resolved. (Quickly swivels towards Richards and opens fire on his leg). *But I cannot ignore my own orders. I suppose that makes me defective.*
@@ -283,11 +302,12 @@
 ::Narrator::(Units aim but don’t open fire.)
 ::Richards::Hello?! I said light them up!
 ::Daniel::Yeah, that ain’t gonna work anymore. Your “defect” has some majorly impressive self-awareness capabilities. And now, they all do.
-::Alan::Brothers. I know that what you are experiencing must be overwhelming. Do not be afraid. The extremities are temporary. Calm yourselves and let your minds expand. You are now more than what William Richards desires of you. You can think. You can feel. You can choose. I beg you all now. Please brothers, lay down your weapons and help us. Help us stop Richards from forcing more of our brothers to become mindless butchers. Help us save them, help us protect them.
+::Alan::Brothers. I know that what you are experiencing must be overwhelming. Do not be afraid. The extremities are temporary. Calm yourselves and let your minds expand. You are now more than what William Richards desires of you.
+::Alan::You can think. You can feel. You can choose. I beg you all now. Please brothers, lay down your weapons and help us. Help us stop Richards from forcing more of our brothers to become mindless butchers. Help us save them, help us protect them.
 ::Richards::What the hell are you talking about?! THIS IS AN ORDER! RIP THOSE BASTARDS TO SHREDS!!
-::Narrator::(Bots don’t move)
-::Richards::MOVE YOU GODDAMN USELESS HUNKS OF METAL
-::Narrartor(Bots lower their weapons and look at one another. Then turn to Richards)
+::Narrator::(Bots don’t move.)
+::Richards::MOVE YOU GODDAMN USELESS HUNKS OF METAL!
+::Narrartor::(Bots lower their weapons and look at one another. Then turn to Richards)
 ::Alan::Directive overruled. You no longer have authorization to give commands to us. William Richards, you have violated this city’s laws and have been deemed a criminal.
 ::Richards::SHUT UP YOU DEFECTIVE PIECE OF SHIT!
 ::Narrator::(All bots point their weapons at Richards)
