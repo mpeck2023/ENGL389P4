@@ -93,7 +93,7 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
     const [storyI, setStoryI] = useState(0);
     const logs: TerminalLog[] = passages.map((p) => p.body).flat();
     const faces: AsciiArt[] = passages.map((p) => p.body).flat();
-    
+
     const key = "./assets/asciiTitle.txt";
     const fileImport = import.meta.glob("./assets/asciiTitle.txt", {
         as: "raw",
@@ -101,9 +101,11 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
     });
     const title = fileImport[key];
 
-    let face = {speakerName: "Title", ascii: title}
+    let face = { speakerName: "Title", ascii: title };
     if (storyI != 0) {
-        face = faces.find(face => face.speakerName == logs[storyI-1].speakerName)
+        face = faces.find(
+            (face) => face.speakerName == logs[storyI - 1].speakerName,
+        );
     }
     return (
         <div
@@ -119,14 +121,16 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
             <div
                 className="layout"
                 style={{
-                    gridTemplateColumns: storyI === 0 ? "1fr" : "5fr 4fr"
+                    gridTemplateColumns: storyI === 0 ? "1fr" : "5fr 4fr",
                 }}
             >
                 <div className="topLeft">
-                    <AsciiArts face = {face}/>
+                    <AsciiArts face={face} />
                 </div>
-                <div className="topRight"
-                style={{display: storyI === 0 ? "none" : "flex"}}>
+                <div
+                    className="topRight"
+                    style={{ display: storyI === 0 ? "none" : "flex" }}
+                >
                     <TerminalLogs logs={logs.slice(0, storyI)} />
                 </div>
                 <div className="bottom">

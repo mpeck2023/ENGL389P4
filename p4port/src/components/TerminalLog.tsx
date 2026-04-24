@@ -5,6 +5,27 @@ export type TerminalLog = {
     text: string;
 };
 
+function OneLog({
+    key,
+    log,
+    selected,
+}: {
+    key: any;
+    log: TerminalLog;
+    selected?: boolean;
+}) {
+    return (
+        <p className={selected ? "current-log" : "past-log"} key={key}>
+            {log.speakerName === "Narrator" ? (
+                <em>{log.text}</em>
+            ) : (
+                log.speakerName + ": " + log.text
+            )}
+            {selected && <p className="cursor">▌</p>}
+        </p>
+    );
+}
+
 export default function TerminalLogs({ logs }: { logs: TerminalLog[] }) {
     const divRef = useRef<HTMLDivElement | null>(null);
     const currLog = logs.slice(-1)[0];
@@ -19,16 +40,9 @@ export default function TerminalLogs({ logs }: { logs: TerminalLog[] }) {
     return (
         <div ref={divRef} className="terminal-logs">
             {logs.slice(0, -1).map((l, i) => (
-                <p className="past-log" key={i}>
-                    {l.speakerName}: {l.text}
-                </p>
+                <OneLog key={i} log={l} />
             ))}
-            {currLog && (
-                <p className="current-log">
-                    {currLog.speakerName}: {currLog.text}
-                    <p className="cursor">▌</p>
-                </p>
-            )}
+            {currLog && <OneLog key="current" log={currLog} selected />}
         </div>
     );
 }
