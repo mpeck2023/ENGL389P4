@@ -93,11 +93,18 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
     const [storyI, setStoryI] = useState(0);
     const logs: TerminalLog[] = passages.map((p) => p.body).flat();
     const faces: AsciiArt[] = passages.map((p) => p.body).flat();
-    let face = {speakerName: "", ascii: ""}
+    
+    const key = "./assets/asciiTitle.txt";
+    const fileImport = import.meta.glob("./assets/asciiTitle.txt", {
+        as: "raw",
+        eager: true,
+    });
+    const title = fileImport[key];
+
+    let face = {speakerName: "Title", ascii: title}
     if (storyI != 0) {
         face = faces.find(face => face.speakerName == logs[storyI-1].speakerName)
     }
-    console.log(face?.speakerName)
     return (
         <div
             id="storybox"
@@ -109,11 +116,17 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
             {/* <Title />
             <Story />
             <Choices /> */}
-            <div className="layout">
+            <div
+                className="layout"
+                style={{
+                    gridTemplateColumns: storyI === 0 ? "1fr" : "5fr 4fr"
+                }}
+            >
                 <div className="topLeft">
                     <AsciiArts face = {face}/>
                 </div>
-                <div className="topRight">
+                <div className="topRight"
+                style={{display: storyI === 0 ? "none" : "flex"}}>
                     <TerminalLogs logs={logs.slice(0, storyI)} />
                 </div>
                 <div className="bottom">
