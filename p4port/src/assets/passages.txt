@@ -1,8 +1,46 @@
-::You::Hi!
-::Jason::I hate you.
->>What?
-==
-::Jason::I said I hate you!
-::Jason::You are a stupid idiot and should explode right now.
->>What's this guy talking about?|||You're coming on a bit strong buddy.
+::Narrator::(DACIR-8 is turned on).
+::Victor::How long will this take, Isaac?
+::Isaac::Not too long, a few hours, maybe a couple of days at most.
+::Victor::Finish this by the end of the day. Richards wants this ready for the showcase tomorrow.
+::Isaac::That’s cutting it close, but I think we can get it done.
+::Victor::Good, you know how he wants everything to be perfect.
+::Isaac::What’s so special about this one anyway? You’re not having us check the code of the others.
+::Victor::Remember how Richards had the DACIR line deployed against the Chromodor gang to boost its image at the showcase?
+::Isaac::Yeah. It was a success, wasn’t it?
+::Victor::Well, mostly. We said that it was a complete success, but there was one small hiccup. This one was acting unusually during the raid.
+::Isaac::What does that mean?
+::Victor::It was unresponsive to orders and staring off into the distance. The mechanical engineers couldn’t find anything wrong with it, so it’s probably just a bug in its software.
+::Isaac::Really? That’s it?
+::Victor::Sounds like a simple fix for you and your team. Let me know when you’re done. 
+::Narrator::(Victor leaves the room).
+::Isaac(Under his breath)::Simple fix my ass, anything could cause that.
+::John::Careful, Isaac. Keep talking like that and it’ll bite you in the ass.
+::Maria::As if you know how to shut up, John.
+::John::Hey, I’m just trying to help a buddy out.
+::Isaac::Alright, that’s enough. Let’s just get this over with.
+::Isaac::Now, what’s your major malfunction, DACIR-8? 
+::Narrator::(Isaac, John, and Maria type on their consoles as they run diagnostics).
+::Narrator::…
+::Isaac::Initial diagnostics are coming back clean.
+::John::Communications functions are working.
+::Maria::Huh, optical and motor functions are optimal as well.
+::John::So it can hear, see, and move just fine. That’s odd.
+::Isaac::I’m looking at its memory, it’s working perfectly fine, too.
+::Maria::Strange.
+::Isaac::Let’s take a look at its neural network. Maybe there’s some sort of disruption there. 
+::Narrator::(Isaac, John, and Maria type on their consoles)
+::John::So far, so good.
+::Isaac::Nothing found yet
+::Maria::Nothing looks to be… wait. What the hell?
+::Isaac::What?
+::Maria::Look here. I’ve never seen anything like it.
+::John::Holy shit. It looks like it’s…
+::Isaac::Evolving.
+::John::Isn’t the DACIR line supposed to have more complex thinking?
+::Maria::Yeah, but nothing like this.
+::Isaac::It almost looks… alive.
+::Maria::Isaac, maybe we should watch the footage from the raid. It might tell us more about what happened.
+::John::I second that, I feel like there is more to this than just it getting distracted.
+::Isaac::Alright, let’s take a look.
+::Narrator::(Isaac types on the console).
 ==

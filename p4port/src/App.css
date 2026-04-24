@@ -347,4 +347,13 @@ body::before {
 
 .terminal-logs {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.past-log {
+    color: hsl(var(--hue), 100%, 25%);
 }

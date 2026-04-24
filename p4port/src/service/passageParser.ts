@@ -13,7 +13,7 @@ export function parseFileToPassages(): Passage[] | null {
     if (!rawPassages) throw new Error(`No file found at ${key}`);
 
     const passages: Passage[] = [];
-    
+
     // ===============
     // Begin parsing
     // ===============
@@ -69,9 +69,9 @@ export function parseFileToPassages(): Passage[] | null {
                     text: `"${displayText}"`,
                     thumbnail: thumbnailText,
                 };
+            } else if (lines[i].startsWith(EOP)) {
+                break;
             }
-
-            else if (lines[i].startsWith(EOP)) {break}
 
             // Idk what we're looking at anymore :(
             else {
@@ -86,6 +86,6 @@ export function parseFileToPassages(): Passage[] | null {
         passages.push(p);
         i++;
     }
-    
+
     return passages;
 }
