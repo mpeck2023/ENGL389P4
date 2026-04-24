@@ -7,20 +7,7 @@ import AsciiArts, { type AsciiArt } from "./components/AsciiArt";
 import type { Passage } from "./types/Passage";
 
 export default function MyApp() {
-    const [started, setStarted] = useState(true);
-
-    // return (
-    //     <>
-    //         <ColorButton />
-    //         <ColorSlider />
-    //         <IntroScreen
-    //             show={!started}
-    //             onStart={() => setStarted(!started)}
-    //         />
-    //         <StoryBox show={started} />
-    //     </>
-    // );
-    return <StoryBox show={started} passages={parseFileToPassages()!} />;
+    return <StoryBox passages={parseFileToPassages()!} />;
 }
 
 // function ColorButton() {
@@ -89,7 +76,7 @@ function Flare() {
 //     return <span className="subtitle">by Matthew Peck</span>;
 // }
 
-function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
+function StoryBox({ passages }: { passages: Passage[] }) {
     const [storyI, setStoryI] = useState(0);
     const logs: TerminalLog[] = passages.map((p) => p.body).flat();
     const faces: AsciiArt[] = passages.map((p) => p.body).flat();
@@ -105,19 +92,11 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
     if (storyI != 0) {
         face = faces.find(
             (face) => face.speakerName == logs[storyI - 1].speakerName,
-        );
+        )!;
     }
     return (
-        <div
-            id="storybox"
-            style={{
-                display: show ? "flex" : "none",
-            }}
-        >
+        <div id="storybox">
             <Flare />
-            {/* <Title />
-            <Story />
-            <Choices /> */}
             <div
                 className="layout"
                 style={{
@@ -145,11 +124,3 @@ function StoryBox({ show, passages }: { show: boolean; passages: Passage[] }) {
         </div>
     );
 }
-
-// function Story() {
-//     return <div id="story" />;
-// }
-
-// function Choices() {
-//     return <div id="choices"></div>;
-// }

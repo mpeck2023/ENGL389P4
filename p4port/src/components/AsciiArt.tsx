@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 export type AsciiArt = {
     speakerName: string;
@@ -10,11 +10,7 @@ export default function AsciiArts({ face }: { face: AsciiArt }) {
 
     return (
         <div ref={divRef} className="ascii-art">
-            {face && (
-                <p className="current-log">
-                    {face.ascii}
-                </p>
-            )}
+            {face && <p className="current-log">{face.ascii}</p>}
         </div>
     );
 }
